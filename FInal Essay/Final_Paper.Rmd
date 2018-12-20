@@ -1,0 +1,80 @@
+---
+title: "Taking Advantage of Computational Methodolgy"
+author:
+- affiliation: Utah State University
+  name: Zachary J Smith
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    citation_package: natbib
+    fig_caption: yes
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+biblio-style: apsr
+fontfamily: mathpazo
+fontsize: 11pt
+geometry: margin=1in
+keywords: Python, Monte Carlo, simulation, arbitrage
+bibliography: master.bib
+spacing: double
+abstract: Quantifying data to formulate solutions to problems is how economists attempt to uncover how individuals deal with the allocation of scarce means among alternative competing ends. It is impractical, and typically impossible to gather data from an entire population.  Researches remedy this by randomly sampling from the population. They use statistic and econometric tools, so they can answer questions about the sample distributions they build from the data collected. This paper will look at the methodology researchers use to gather data. It will also look at methods of observation. Economist, James M. Buchanan quoted Milton Freedman in his speech titled, *what Should Economists Do*, "economics is how a particular society solves it economic problems" [@buchanan1964should]. There are several different methods researchers use to theorize on economics and combining methodologies may be the best way to solve economic problems. 
+---
+
+### Introduction
+  
+In Economist, James M. Buchanan's farewell university speech, *What Should economists do*, Buchanan talks about the difference between studying efficiency verses exchange in the marketplace. Economists typically theorize on efficiency in the allocation of scarce means among alternative competing ends. Buchanan questions the relevance of this methodology. He points out that "learning more about how markets work means learning more how markets work" [@buchanan1964should].  There are several schools of thought on how economic research should be accomplished and there are also several schools of thought on how society can benefit mutually when research is based on the underlying economic principles of the society. Research tends to aim towards prior beliefs when it comes to understanding how the economy works. The problem is the individual is never fully accounted for. Hayek argues that using mathematics does not work properly to solve social problems because there cannot be one authority to derive solutions to problems when the problems come from the individual. Ostrom argues that using different fields of research will make for better data collection which is often overlooked in economics. While Buchanan and Hayek take an approach that caters towards the mindset and decision-making process of the individual, Schumpeter looks at how centralized methods of political and economic decision making can be more beneficial to society. This paper will look at how a conflation of methods can mitigate the divisive and incomplete problems that spawn from schools of thought based on finite methodologies. With advances in computation, there is an opportunity to conflate mythology in new ways that will involve the study of exchange in order to understand efficiency, which is what Buchanan says economists *should* be doing.
+
+### Literature Review
+
+Adam Smith said "it is the necessary, though very slow and gradual consequence of a certain propensity in human nature which has in view no such extensive utility; the propensity to truck, barter, and exchange one thing for another"[@smith1937wealth]. He considers his essay to be an essay of persuasion. He disagrees with the traditional definition of economics: "the allocation of scarce means among alternative competing ends." Instead of looking at economics by trying to understand characteristics of human activity we look at problems. While the problems are easy starting points for understanding society, it is important to look at exchange within the market instead of efficiency when trying to solve these problems, because looking at the market exchange process instead of efficiency will help remove bias. 
+
+Buchanan is also unhappy with the formal definition of economics: "the allocation of scarce means among alternative competing ends." He wants to reclassify this field of research as "catallactic," or "symbiotic." These terms make more sense because they focus on what is mutually beneficial between parties instead of what problems they are faced with due to scarcity. Buchanan does not like that economists look at how resources are derived from the market directly. Researchers try to understand efficiency within the market through problem solving which he calls the "socially engineered artificial machine"[@buchanan1964should]. 
+  
+People place their own value judgments into their methodology, focusing on efficiency rather than individual choice. Solutions to problems happen when the market functions well, not when data is mathematically derived based on assumptions. If the market is viewed as a basis of allocation in terms of the problem element, then the solution becomes generated through an engineered artificial machine-like market which is not representative of the individual. The market is not trying to accomplish anything, only be grounds for voluntary exchange. Buchanan likes the idea of a political constitution, representative of the voluntarist exchange in order to curb the practice of Social-Engineering. "But I shall continue to insist that our 'purpose,' if you will, is no more that of providing the social engineer with these tools than it is of providing the monopolist with tools to make more profits, or Wicksteed's housewife with the instructions how better to divide out the mashed potatoes among her children"[@buchanan1964should]. Researchers who get caught up in their own bias will socially engineer solutions to the problems society faces economically. Buchanan is arguing for an economic system based on voluntary exchange to help solve problems.   
+ 
+## Availability of Information
+
+Friedrich Hayek says, the calculus in economics does not account for the individual. It's not about access to resources but how to best use resources. Using the same mathematics used to solve natures problems with social problems does not work. Is it possible for there to be one authority or are solutions to be derived from the individual? Competition means decentralized planning by several people which means within a myriad of ideology. Individual decisions are not a science and cannot be centralized and quantified. The method of making knowledge widely available is the problem in need of an answer. It is impossible to come up with an economic plan that can be followed because of time and place evolving. It is easy to overlook small, constant economic changes when viewing an economy through a statistical lens[@hayek1945use]. Hayek said this in 1945, long before computers would do exactly what Hayek said could not be done. Computers and the internet make information and knowledge widely available.  
+  
+Central planning based on statistical information by nature cannot account for the entire sphere of circumstance and will not be precise enough to work for the "man on the Spot" or individual[@hayek1945use]. The individual bases needs on their surroundings instead of what particular choices are available. There is not one person who knows how to make a pencil. This is the problem with centralized ideology. The marvel of the market responds to scarcity. "The problem is precisely how to extend the span of our utilization of resources beyond the span of the control of any one mind"[@hayek1945use]. Centralized thinking and solutions removes the ability for the individual to freely use his own knowledge and skill. Hayek argues against the valuation of the factors based on the valuation of consumer goods. Equilibrium analysis often fails to focus on the study of the main problem using any sort of social process. With advances in computer technology, economists have improved on their ability to understand the social process using big data and econometric tools. Buchanan would argue that these tools still run into the problem of giving people the ability to social-engineer solutions which will be rampant with bias and solutions based on prior beliefs on efficiency rather than looking at the exchange process within the market. 
+  
+### Efficiency Versus Exchange
+
+Joseph Schumpeter says Capitalist reality is unfavorable to maximum performance of production and monopoly has reversed the structures of maximum performance of production. Economists fail to look at the evolution of the economy. The economy is never stationary. The economy in a capitalist market is driven by new methods of production. The economy must be viewed based on how it preforms over long periods of time from decades to centuries. Any analyzation given at only one point in time does not represent the economy. Analyzing a process may give a piece of the process but never more than that. Economist who look at a capital society act like there is no past or future, only looking at the data they have on hand[@schumpeter2010capitalism]. It is clear that Schumpeter has a very different view than both Hayek and Buchanan when it comes to methodology regarding understanding the market. They would disagree that the market should not be viewed at one point in time because they prefer the value of understanding the exchange process versus understanding the efficiency of the process over decades and centuries. With advances in computational technology, the ability to evaluate the exchange process at a given point in time is easier than ever before. In experimental economics, economists can run experiments on the exchange process to better understand how the market works, instead of looking at the history of efficiency in the marketplace.
+
+### Conflation of Methodology
+
+Most economists look for a problem and try to quantify a solution. In a free market-based economy, if the market has a problem it will resolve itself uniquely based on what is mutually beneficial to the individual. Economists look beyond the voluntary exchange process and try to come up with a solution that is generalized. This fails to account for the individual who ultimately solves the problem on their own when the markets function properly. Economists should try to look at the market to understand the market rather than do what they generally do, which is gather data based on the market, then try and quantify it computationally. Economists look at what the problems are, then claim to find solutions to the problems with data. The solution to the problem only happens when the market corrects the problem on its own, because it is the mass of individuals within the market that actually make the decisions. Writing about "solutions" and trying to create theories or policies based on these solutions is not effective or even ethical. "Economists should look at the market with no prejudice or bias towards one form of social order." Only trying to quantify a solution will automatically diminish the important role the individual plays in terms of Adam Smith's, 'invisible hand."
+
+Elinor Ostrom is a Nobel Prize winning political economist who believed "the multiple methods approach is best employed within the framework of a thorough and well-constructed analytic narrative based on in-depth fieldwork in whichever of its manifestations is most appropriate for the question at hand" [@boettke2013riding]. Her early work dealt with the complexities of efficiency and exchange. Ostrom was interested in a political system that paid attention to local systems and the individual. In debates, "consolidationists employed arguments about technical efficiency in the production of local public goods to argue that polycentric provision was wasteful and unnecessary" [@boettke2013riding]. This is the same argument Buchanan and Hayek oppose. It is impractical to understand the market through efficiency, it must be viewed at the process of exchange. 
+
+Ostrom was interested in studying economics by researching local public economies through field work. This is a much different approach than what most economists do, but it is an idea that sits well with Buchanan and Hayek's belief that the market can only be understood by studying the market. A great example comes from a piece written about Ostrom's research, *Riding in Cars with Boys: Elinor Ostrom's Adventures with the Police*, in regard to the welfare system, states, "changes in welfare can only be self-determined by the community in question. Efficiency experts from afar are to be checked by the criteria of responsiveness to the demands for public goods by local communities" [@boettke2013riding]. There is a massive problem in the united states with welfare abuse. If researchers were to use computational methods to better understand local populations in their current state at an individual level, the welfare system could be improved. Instead, generalized baseline measurements are made that address an entire population when economies at a local level are not understood or accounted for. 
+
+To understand the exchange process at the local and individual level, Ostrom focused on multiple methodologies. "Elinor Ostrom was a champion of what she termed 'multiple methods methodology', and in particular the combination of fieldwork with formal theory, experimental methods, and computer simulation" [@boettke2013riding]. This is what economists should be doing, especially with the advance in computer technology. Hayek said that knowledge is not readily available, but with computers, big data can be taken and traced down to a much more local level to better understand exchange process. This is what econometricians would call having a quality N, a sample distribution that is normally distributed, a bell curve that hugs up tightly with the population average. 
+
+## Conclusion
+
+Computational economists now have the ability to look at big data to understand the exchange process. Understanding the market involves researching the market. Anyone can look at the history of exchanges in the stock market to predict the future, but prices do not accurately reflect all of the qualitative elements of the company. If one were to ask successful investors how they pick investments, they would say they only invest in companies they understand. Finance goo roos generally look at investment opportunities by running risk assessment using statistical methods to predict how well an investment is going to do. Understanding what the product is and what is being exchanged is what Hayek, Buchanan, and Ostrom would recommend. To end with an anecdote, there was a funny experiment someone once ran where they had stock brokers compete with Playboy Playmates to see who would pick the most lucrative stocks, and the playmates one. This is an example of how the qualitative understanding of the exchange is just as important as understanding the efficiency of the market, if not even more important. Since we have the big data, internet, and computational tools to understand the exchange process better, we should take full advantage.
+  
+
+
+  
+
+<center>### References 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
